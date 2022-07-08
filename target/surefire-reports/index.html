@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-happypathquoteCQ" class="navigator-link">
+              <span class="suite-name border-passed">happypathquoteCQ</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-happypathquoteCQ" class="navigator-link ">
+                    <span>D:\Automation\eclipse\eclipse workspace\Git\CQ-Automation\CalcuQuoteV2\Happypath_QuoteCQ.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-happypathquoteCQ" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-happypathquoteCQ" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-happypathquoteCQ" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-happypathquoteCQ" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-happypathquoteCQ" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-happypathquoteCQ" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-happypathquoteCQ" class="hide-methods passed suite-happypathquoteCQ"> (hide)</a> <!-- hide-methods passed suite-happypathquoteCQ -->
+                      <a href="#" panel-name="suite-happypathquoteCQ" class="show-methods passed suite-happypathquoteCQ"> (show)</a> <!-- show-methods passed suite-happypathquoteCQ -->
+                    </span>
+                    <div class="method-list-content passed suite-happypathquoteCQ">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_AddLabor" class="method navigator-link" hash-for-method="addMain">addMain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_AutoSelect" class="method navigator-link" hash-for-method="autoSelectmain">autoSelectmain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_CreateRFQ" class="method navigator-link" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_Login" class="method navigator-link" hash-for-method="frontLogin(https://app.calcuquote.com/stagingsandbox/)">frontLogin(https://app.calcuquote.com/stagingsandbox/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_ImportBOM" class="method navigator-link" hash-for-method="importMain">importMain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_UpdatePricing" class="method navigator-link" hash-for-method="pricingmain">pricingmain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_PublishQuote" class="method navigator-link" hash-for-method="publishmain">publishmain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-happypathquoteCQ" title="QuoteCQ.QuoteCQ_SubmitSummary" class="method navigator-link" hash-for-method="submitmain">submitmain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-happypathquoteCQ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-happypathquoteCQ" class="panel happypathquoteCQ">
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_PublishQuote</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="publishmain">
+                  </a> <!-- publishmain -->
+                  <span class="method-name">publishmain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - PUBLISH QUOTE)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_CreateRFQ</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - CREATE RFQ )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_AddLabor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMain">
+                  </a> <!-- addMain -->
+                  <span class="method-name">addMain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - ADD LABOR ACTIVITIES AND SUBMIT)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_SubmitSummary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitmain">
+                  </a> <!-- submitmain -->
+                  <span class="method-name">submitmain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ -  SUBMIT SUMMARY)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_UpdatePricing</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pricingmain">
+                  </a> <!-- pricingmain -->
+                  <span class="method-name">pricingmain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - UPDATE PRICING)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="frontLogin(https://app.calcuquote.com/stagingsandbox/)">
+                  </a> <!-- frontLogin(https://app.calcuquote.com/stagingsandbox/) -->
+                  <span class="method-name">frontLogin</span>
+                  <span class="parameters">(https://app.calcuquote.com/stagingsandbox/)</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - LOGIN TO QUOTE CQ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_ImportBOM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="importMain">
+                  </a> <!-- importMain -->
+                  <span class="method-name">importMain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ - IMPORT BOM AND SUBMIT)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+          <div class="suite-happypathquoteCQ-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QuoteCQ.QuoteCQ_AutoSelect</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="autoSelectmain">
+                  </a> <!-- autoSelectmain -->
+                  <span class="method-name">autoSelectmain</span>
+                  <em>
+(#. HAPPY PATH :: QCQ -  PRICING SELECTION AND SUBMIT MATERIAL COSTING)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-happypathquoteCQ-class-passed -->
+        </div> <!-- panel happypathquoteCQ -->
+        <div panel-name="test-xml-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation\eclipse\eclipse workspace\Git\CQ-Automation\CalcuQuoteV2\Happypath_QuoteCQ.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;happypathquoteCQ&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;parentclass.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;cqUrl&quot; value=&quot;https://app.calcuquote.com/stagingsandbox/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CreateRFQ&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_CreateRFQ&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CreateRFQ --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ImportBOM&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_ImportBOM&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ImportBOM --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddLabor&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_AddLabor&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddLabor --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UpdatePricing&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_UpdatePricing&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UpdatePricing --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AutoSelect&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_AutoSelect&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoSelect --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SubmitSummary&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_SubmitSummary&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubmitSummary --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PublishQuote&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QuoteCQ.QuoteCQ_PublishQuote&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PublishQuote --&gt;
+&lt;/suite&gt; &lt;!-- happypathquoteCQ --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for happypathquoteCQ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CreateRFQ (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ImportBOM (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddLabor (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UpdatePricing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AutoSelect (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubmitSummary (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PublishQuote (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for happypathquoteCQ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for happypathquoteCQ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_happypathquoteCQ');
+function tableData_happypathquoteCQ() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'pricingmain')
+data.setCell(0, 2, 'QuoteCQ.QuoteCQ_UpdatePricing')
+data.setCell(0, 3, 271753);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'importMain')
+data.setCell(1, 2, 'QuoteCQ.QuoteCQ_ImportBOM')
+data.setCell(1, 3, 205856);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'create')
+data.setCell(2, 2, 'QuoteCQ.QuoteCQ_CreateRFQ')
+data.setCell(2, 3, 108698);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'autoSelectmain')
+data.setCell(3, 2, 'QuoteCQ.QuoteCQ_AutoSelect')
+data.setCell(3, 3, 93392);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addMain')
+data.setCell(4, 2, 'QuoteCQ.QuoteCQ_AddLabor')
+data.setCell(4, 3, 58117);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'frontLogin')
+data.setCell(5, 2, 'QuoteCQ.QuoteCQ_Login')
+data.setCell(5, 3, 38489);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'submitmain')
+data.setCell(6, 2, 'QuoteCQ.QuoteCQ_SubmitSummary')
+data.setCell(6, 3, 30156);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'publishmain')
+data.setCell(7, 2, 'QuoteCQ.QuoteCQ_PublishQuote')
+data.setCell(7, 3, 8061);
+window.suiteTableData['happypathquoteCQ']= { tableData: data, tableDiv: 'times-div-happypathquoteCQ'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-happypathquoteCQ">
+              </div> <!-- times-div-happypathquoteCQ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for happypathquoteCQ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-happypathquoteCQ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_PublishQuote</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">checkExecutionModeTestSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">10577 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">frontLogin(https://app.calcuquote.com/stagingsandbox/)</span>
+                <span class="method-start">10616 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_CreateRFQ</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">49738 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">49744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_ImportBOM</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">158552 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">importMain</span>
+                <span class="method-start">158554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_AddLabor</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">364502 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">addMain</span>
+                <span class="method-start">364504 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_UpdatePricing</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">422710 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">pricingmain</span>
+                <span class="method-start">422712 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_AutoSelect</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">694530 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">autoSelectmain</span>
+                <span class="method-start">694531 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_SubmitSummary</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">788008 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">submitmain</span>
+                <span class="method-start">788010 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QuoteCQ.QuoteCQ_PublishQuote</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">818235 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">publishmain</span>
+                <span class="method-start">818237 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

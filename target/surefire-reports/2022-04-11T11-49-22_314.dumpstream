@@ -1,0 +1,4 @@
+# Created at 2022-04-11T11:49:22.914
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Automation\eclipse\eclipse workspace\Git\CQ-Automation\CalcuQuoteV2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

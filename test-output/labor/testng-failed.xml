@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [labor]">
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="VerifydrivercountTc03(failed)">
+    <classes>
+      <class name="Labor.VerifydrivercountTc03">
+        <methods>
+          <include name="addMain"/>
+          <include name="checkTestCase"/>
+          <include name="checkExecutionModeTestSuite"/>
+        </methods>
+      </class> <!-- Labor.VerifydrivercountTc03 -->
+    </classes>
+  </test> <!-- VerifydrivercountTc03(failed) -->
+  <test thread-count="5" name="VerifydrivercountTc06(failed)">
+    <classes>
+      <class name="Labor.VerifydrivercountTc06">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="addMain"/>
+          <include name="checkExecutionModeTestSuite"/>
+        </methods>
+      </class> <!-- Labor.VerifydrivercountTc06 -->
+    </classes>
+  </test> <!-- VerifydrivercountTc06(failed) -->
+</suite> <!-- Failed suite [labor] -->

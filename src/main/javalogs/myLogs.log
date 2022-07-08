@@ -1,0 +1,16 @@
+29/07/2021 11:29:03 devpinoyLogger ~>> Properties file is loading now....
+29/07/2021 11:29:03 devpinoyLogger ~>> Properties file loaded successfully....
+29/07/2021 11:29:03 devpinoyLogger ~>> Browser is launching now...
+29/07/2021 11:29:05 devpinoyLogger ~>> Browser launched successfully.....
+29/07/2021 11:29:06 devpinoyLogger ----------------------------------------------------------------------------
+29/07/2021 11:29:06 devpinoyLogger CASE : LOGIN TO QUOTE CQ
+29/07/2021 11:29:14 devpinoyLogger ~>> Enter UserName
+29/07/2021 11:29:14 devpinoyLogger ~>> Enter Password
+29/07/2021 11:29:15 devpinoyLogger ~>> Click on Login Button
+29/07/2021 11:29:40 devpinoyLogger RESULT  1 :: Login Done Successfully 
+29/07/2021 11:29:40 devpinoyLogger RESULT  2 :: Redirected to CalcuQuote - DashboardPage
+29/07/2021 11:29:40 devpinoyLogger RESULT  3 :: Time to login  :: 8 Second(s)
+29/07/2021 11:29:40 devpinoyLogger RESULT  4 :: Login done within 60 seconds
+29/07/2021 11:29:40 devpinoyLogger ----------------------------------------------------------------------------
+29/07/2021 11:29:55 devpinoyLogger ~>> Verify Search Records
+29/07/2021 11:29:55 devpinoyLogger ~>> Searched record is correct

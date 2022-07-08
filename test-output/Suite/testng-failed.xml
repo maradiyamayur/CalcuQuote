@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Login.loginTC2">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="frontLogin"/>
+        </methods>
+      </class> <!-- Login.loginTC2 -->
+      <class name="RFQ.createRFQ1">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- RFQ.createRFQ1 -->
+      <class name="Login.loginTC1">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="frontLogin"/>
+          <include name="checkExecutionModeTestSuite"/>
+        </methods>
+      </class> <!-- Login.loginTC1 -->
+      <class name="RFQ.createRFQ2">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="create"/>
+        </methods>
+      </class> <!-- RFQ.createRFQ2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

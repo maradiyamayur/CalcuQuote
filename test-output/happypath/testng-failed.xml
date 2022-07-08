@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [happypath]">
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="BidGenerate(failed)">
+    <classes>
+      <class name="BidCQ.BidCQ_BidGenerate">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="checkTestCase"/>
+          <include name="altenatePart"/>
+        </methods>
+      </class> <!-- BidCQ.BidCQ_BidGenerate -->
+    </classes>
+  </test> <!-- BidGenerate(failed) -->
+</suite> <!-- Failed suite [happypath] -->

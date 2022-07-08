@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  BidCQ_Filter</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BidCQ_Filter</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 17 16:50:50 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>390 seconds (390906 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filter()'><b>filter</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER </td>
+<td></td>
+<td>14</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide1()'><b>filterSide1</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ FILTER FOR OPEN BID : STAUS</td>
+<td></td>
+<td>6</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide2()'><b>filterSide2</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER : NO OF BIDS  FOR OPEN BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide3()'><b>filterSide3</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER : NO OF LINES  FOR OPEN BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide4()'><b>filterSide4</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER ALPHABETICAL FOR OPEN BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide5()'><b>filterSide5</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER FOR CLOSED BID : STATUS</td>
+<td></td>
+<td>38</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide6()'><b>filterSide6</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ FILTER : NO OF BIDS  FOR CLOSED BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide7()'><b>filterSide7</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER : NO OF LINES  FOR CLOSED BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSide8()'><b>filterSide8</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ  FILTER : ALPHABETICAL FOR CLOSED BID</td>
+<td></td>
+<td>16</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary1()'><b>filterSummary1</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR OPEN BID : ID</td>
+<td></td>
+<td>12</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary10()'><b>filterSummary10</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR  CLOSED BID : QUOTE-ASSEMBLY</td>
+<td></td>
+<td>41</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary2()'><b>filterSummary2</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR OPEN BID : QUOTE NO</td>
+<td></td>
+<td>6</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary3()'><b>filterSummary3</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR OPEN BID : COMPANY</td>
+<td></td>
+<td>41</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary4()'><b>filterSummary4</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR OPEN BID  : DUEDATE</td>
+<td></td>
+<td>11</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary5()'><b>filterSummary5</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR OPEN BID : QUOTE-ASSEMBLY</td>
+<td></td>
+<td>41</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary6()'><b>filterSummary6</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR  CLOSED BID : ID</td>
+<td></td>
+<td>41</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary7()'><b>filterSummary7</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR  CLOSED BID : QUOTE NO</td>
+<td></td>
+<td>11</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary8()'><b>filterSummary8</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR  CLOSED BID : COMPANY</td>
+<td></td>
+<td>12</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+<tr>
+<td title='BidCQ.BidCQ_Filter.filterSummary9()'><b>filterSummary9</b><br>Test class: BidCQ.BidCQ_Filter<br>Test method: #. BIDCQ SUMMARY FILTER FOR  CLOSED BID  : DUEDATE</td>
+<td></td>
+<td>11</td>
+<td>BidCQ.BidCQ_Filter@4c6e276e</td></tr>
+</table><p>
+</body>
+</html>

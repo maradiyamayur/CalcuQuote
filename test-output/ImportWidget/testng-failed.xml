@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ImportWidget]">
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="DemandLine(failed)">
+    <classes>
+      <class name="ImportWidget.IW_DemandLine">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="demandLineMain"/>
+        </methods>
+      </class> <!-- ImportWidget.IW_DemandLine -->
+    </classes>
+  </test> <!-- DemandLine(failed) -->
+</suite> <!-- Failed suite [ImportWidget] -->

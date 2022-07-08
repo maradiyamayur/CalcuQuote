@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test thread-count="5" name="Summary(failed)">
+    <classes>
+      <class name="SmokeTest.Smoke_Summary_Material">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="checkTestCase"/>
+          <include name="getValue"/>
+        </methods>
+      </class> <!-- SmokeTest.Smoke_Summary_Material -->
+    </classes>
+  </test> <!-- Summary(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

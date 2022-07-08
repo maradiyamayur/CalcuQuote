@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [login (1)]">
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="UpdatepricingTc01(failed)">
+    <classes>
+      <class name="Material_Costing.UpdatepricingTc01">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="editMain"/>
+          <include name="checkExecutionModeTestSuite"/>
+        </methods>
+      </class> <!-- Material_Costing.UpdatepricingTc01 -->
+    </classes>
+  </test> <!-- UpdatepricingTc01(failed) -->
+</suite> <!-- Failed suite [login (1)] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [happypathsearchCQ]" parallel="none">
+  <parameter name="cqUrl" value="https://app.calcuquote.com/SearchCQStaging/"/>
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test name="SearchMPN(failed)" parallel="none">
+    <classes>
+      <class name="SearchCQ.SearchCQ_Login">
+        <methods>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- SearchCQ.SearchCQ_Login -->
+      <class name="SearchCQ.SearchCQ_SearchMPN">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="SearchData"/>
+        </methods>
+      </class> <!-- SearchCQ.SearchCQ_SearchMPN -->
+      <class name="SearchCQ.SearchCQ_VerifyResult">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- SearchCQ.SearchCQ_VerifyResult -->
+    </classes>
+  </test> <!-- SearchMPN(failed) -->
+</suite> <!-- Failed suite [happypathsearchCQ] -->

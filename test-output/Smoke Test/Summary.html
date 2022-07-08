@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Summary</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Summary</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 01 10:01:09 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>521 seconds (521913 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Material.Pricing()'><b>Pricing</b><br>Test class: SmokeTest.Smoke_Summary_Material<br>Test method: #.  UPDATE PRICING AND AUTO SELECT</td>
+<td></td>
+<td>8</td>
+<td>SmokeTest.Smoke_Summary_Material@4b44655e</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Labor.addLabor()'><b>addLabor</b><br>Test class: SmokeTest.Smoke_Summary_Labor<br>Test method: #. ADD LABOR ACTIVITY</td>
+<td></td>
+<td>31</td>
+<td>SmokeTest.Smoke_Summary_Labor@290d210d</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Overhead.getCurrency()'><b>getCurrency</b><br>Test class: SmokeTest.Smoke_Summary_Overhead<br>Test method: #. GET RFQ CURRENCY</td>
+<td></td>
+<td>20</td>
+<td>SmokeTest.Smoke_Summary_Overhead@1d76aeea</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Labor.getLabor()'><b>getLabor</b><br>Test class: SmokeTest.Smoke_Summary_Labor<br>Test method: #. CHECK SUMMARY TOTAL FOR LABOR</td>
+<td></td>
+<td>6</td>
+<td>SmokeTest.Smoke_Summary_Labor@290d210d</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Material.getValue()'><b>getValue</b><br>Test class: SmokeTest.Smoke_Summary_Material<br>Test method: #.  GET VALUES FROM MATERIAL COSTING SCREEN</td>
+<td></td>
+<td>95</td>
+<td>SmokeTest.Smoke_Summary_Material@4b44655e</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Material.importLine()'><b>importLine</b><br>Test class: SmokeTest.Smoke_Summary_Material<br>Test method: #. IMPORT BOM LINE ITEM</td>
+<td></td>
+<td>53</td>
+<td>SmokeTest.Smoke_Summary_Material@4b44655e</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Overhead.overheadCost()'><b>overheadCost</b><br>Test class: SmokeTest.Smoke_Summary_Overhead<br>Test method: #. GET OVERHEAD COST POOLS BASED ON OVERHEAD DRIVERS</td>
+<td></td>
+<td>43</td>
+<td>SmokeTest.Smoke_Summary_Overhead@1d76aeea</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Overhead.overheadDrivers()'><b>overheadDrivers</b><br>Test class: SmokeTest.Smoke_Summary_Overhead<br>Test method: #. GET CONFIGURED OVERHEAD DRIVERS FOR RFQ CURRENCY</td>
+<td></td>
+<td>43</td>
+<td>SmokeTest.Smoke_Summary_Overhead@1d76aeea</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Overhead.overheadVerify()'><b>overheadVerify</b><br>Test class: SmokeTest.Smoke_Summary_Overhead<br>Test method: #. VERIFY OVERHEAD CALCULATION ON SUMMARY PAGE</td>
+<td></td>
+<td>48</td>
+<td>SmokeTest.Smoke_Summary_Overhead@1d76aeea</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Labor.verifyCalcLabor()'><b>verifyCalcLabor</b><br>Test class: SmokeTest.Smoke_Summary_Labor<br>Test method: #. VERIFY CALCULATION ON SUMMARY SCREEN FOR LABOR</td>
+<td></td>
+<td>62</td>
+<td>SmokeTest.Smoke_Summary_Labor@290d210d</td></tr>
+<tr>
+<td title='SmokeTest.Smoke_Summary_Material.verifyCalcMaterial()'><b>verifyCalcMaterial</b><br>Test class: SmokeTest.Smoke_Summary_Material<br>Test method: #.  VERIFY CALCULATION ON SUMMARY SCREEN FOR MATERIAL COSTING</td>
+<td></td>
+<td>107</td>
+<td>SmokeTest.Smoke_Summary_Material@4b44655e</td></tr>
+</table><p>
+</body>
+</html>

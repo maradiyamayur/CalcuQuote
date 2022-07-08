@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [happypathshopCQ]">
+  <listeners>
+    <listener class-name="parentclass.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="POSent(failed)">
+    <classes>
+      <class name="ShopCQ.ShopCQ_POSent">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="poSent"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- ShopCQ.ShopCQ_POSent -->
+    </classes>
+  </test> <!-- POSent(failed) -->
+  <test thread-count="5" name="POFilterList(failed)">
+    <classes>
+      <class name="ShopCQ.ShopCQ_POFilterList">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="poFilter"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- ShopCQ.ShopCQ_POFilterList -->
+    </classes>
+  </test> <!-- POFilterList(failed) -->
+  <test thread-count="5" name="ExportPO(failed)">
+    <classes>
+      <class name="ShopCQ.ShopCQ_ExportPO">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="exportPO"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- ShopCQ.ShopCQ_ExportPO -->
+    </classes>
+  </test> <!-- ExportPO(failed) -->
+  <test thread-count="5" name="UpdatePricing(failed)">
+    <classes>
+      <class name="ShopCQ.ShopCQ_UpdatePricing">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="updatePricing"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- ShopCQ.ShopCQ_UpdatePricing -->
+    </classes>
+  </test> <!-- UpdatePricing(failed) -->
+  <test thread-count="5" name="AutoSelect(failed)">
+    <classes>
+      <class name="ShopCQ.ShopCQ_AutoSelect">
+        <methods>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="autoSelect"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- ShopCQ.ShopCQ_AutoSelect -->
+    </classes>
+  </test> <!-- AutoSelect(failed) -->
+</suite> <!-- Failed suite [happypathshopCQ] -->

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T15:33:13 IST" name="happypathquoteCQ" finished-at="2022-04-25T15:46:48 IST" duration-ms="815722">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T15:33:13 IST" name="Login" finished-at="2022-04-25T15:33:51 IST" duration-ms="38560">
+      <class name="QuoteCQ.QuoteCQ_Login">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_Login@c333c60]" started-at="2022-04-25T15:33:13 IST" name="checkTestCase" finished-at="2022-04-25T15:33:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="frontLogin(java.lang.String)[pri:0, instance:QuoteCQ.QuoteCQ_Login@c333c60]" started-at="2022-04-25T15:33:13 IST" name="frontLogin" description="#. HAPPY PATH :: QCQ - LOGIN TO QUOTE CQ" finished-at="2022-04-25T15:33:51 IST" duration-ms="38489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.calcuquote.com/stagingsandbox/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontLogin -->
+      </class> <!-- QuoteCQ.QuoteCQ_Login -->
+    </test> <!-- Login -->
+    <test started-at="2022-04-25T15:33:52 IST" name="CreateRFQ" finished-at="2022-04-25T15:35:41 IST" duration-ms="108704">
+      <class name="QuoteCQ.QuoteCQ_CreateRFQ">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_CreateRFQ@550ee7e5]" started-at="2022-04-25T15:33:52 IST" name="checkTestCase" finished-at="2022-04-25T15:33:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="create()[pri:0, instance:QuoteCQ.QuoteCQ_CreateRFQ@550ee7e5]" started-at="2022-04-25T15:33:52 IST" name="create" description="#. HAPPY PATH :: QCQ - CREATE RFQ " finished-at="2022-04-25T15:35:41 IST" duration-ms="108698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- QuoteCQ.QuoteCQ_CreateRFQ -->
+    </test> <!-- CreateRFQ -->
+    <test started-at="2022-04-25T15:35:41 IST" name="ImportBOM" finished-at="2022-04-25T15:39:07 IST" duration-ms="205859">
+      <class name="QuoteCQ.QuoteCQ_ImportBOM">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_ImportBOM@d29f28]" started-at="2022-04-25T15:35:41 IST" name="checkTestCase" finished-at="2022-04-25T15:35:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="importMain()[pri:0, instance:QuoteCQ.QuoteCQ_ImportBOM@d29f28]" started-at="2022-04-25T15:35:41 IST" name="importMain" description="#. HAPPY PATH :: QCQ - IMPORT BOM AND SUBMIT" finished-at="2022-04-25T15:39:07 IST" duration-ms="205856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importMain -->
+      </class> <!-- QuoteCQ.QuoteCQ_ImportBOM -->
+    </test> <!-- ImportBOM -->
+    <test started-at="2022-04-25T15:39:07 IST" name="AddLabor" finished-at="2022-04-25T15:40:05 IST" duration-ms="58121">
+      <class name="QuoteCQ.QuoteCQ_AddLabor">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_AddLabor@33990a0c]" started-at="2022-04-25T15:39:07 IST" name="checkTestCase" finished-at="2022-04-25T15:39:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="addMain()[pri:0, instance:QuoteCQ.QuoteCQ_AddLabor@33990a0c]" started-at="2022-04-25T15:39:07 IST" name="addMain" description="#. HAPPY PATH :: QCQ - ADD LABOR ACTIVITIES AND SUBMIT" finished-at="2022-04-25T15:40:05 IST" duration-ms="58117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMain -->
+      </class> <!-- QuoteCQ.QuoteCQ_AddLabor -->
+    </test> <!-- AddLabor -->
+    <test started-at="2022-04-25T15:40:05 IST" name="UpdatePricing" finished-at="2022-04-25T15:44:37 IST" duration-ms="271756">
+      <class name="QuoteCQ.QuoteCQ_UpdatePricing">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_UpdatePricing@ea6147e]" started-at="2022-04-25T15:40:05 IST" name="checkTestCase" finished-at="2022-04-25T15:40:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="pricingmain()[pri:0, instance:QuoteCQ.QuoteCQ_UpdatePricing@ea6147e]" started-at="2022-04-25T15:40:05 IST" name="pricingmain" description="#. HAPPY PATH :: QCQ - UPDATE PRICING" finished-at="2022-04-25T15:44:37 IST" duration-ms="271753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingmain -->
+      </class> <!-- QuoteCQ.QuoteCQ_UpdatePricing -->
+    </test> <!-- UpdatePricing -->
+    <test started-at="2022-04-25T15:44:37 IST" name="AutoSelect" finished-at="2022-04-25T15:46:10 IST" duration-ms="93394">
+      <class name="QuoteCQ.QuoteCQ_AutoSelect">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_AutoSelect@3d5c822d]" started-at="2022-04-25T15:44:37 IST" name="checkTestCase" finished-at="2022-04-25T15:44:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="autoSelectmain()[pri:0, instance:QuoteCQ.QuoteCQ_AutoSelect@3d5c822d]" started-at="2022-04-25T15:44:37 IST" name="autoSelectmain" description="#. HAPPY PATH :: QCQ -  PRICING SELECTION AND SUBMIT MATERIAL COSTING" finished-at="2022-04-25T15:46:10 IST" duration-ms="93392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSelectmain -->
+      </class> <!-- QuoteCQ.QuoteCQ_AutoSelect -->
+    </test> <!-- AutoSelect -->
+    <test started-at="2022-04-25T15:46:10 IST" name="SubmitSummary" finished-at="2022-04-25T15:46:40 IST" duration-ms="30159">
+      <class name="QuoteCQ.QuoteCQ_SubmitSummary">
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_SubmitSummary@429bffaa]" started-at="2022-04-25T15:46:10 IST" name="checkTestCase" finished-at="2022-04-25T15:46:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="submitmain()[pri:0, instance:QuoteCQ.QuoteCQ_SubmitSummary@429bffaa]" started-at="2022-04-25T15:46:10 IST" name="submitmain" description="#. HAPPY PATH :: QCQ -  SUBMIT SUMMARY" finished-at="2022-04-25T15:46:40 IST" duration-ms="30156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitmain -->
+      </class> <!-- QuoteCQ.QuoteCQ_SubmitSummary -->
+    </test> <!-- SubmitSummary -->
+    <test started-at="2022-04-25T15:46:40 IST" name="PublishQuote" finished-at="2022-04-25T15:46:48 IST" duration-ms="8064">
+      <class name="QuoteCQ.QuoteCQ_PublishQuote">
+        <test-method is-config="true" signature="checkExecutionModeTestSuite()[pri:0, instance:QuoteCQ.QuoteCQ_PublishQuote@383bfa16]" started-at="2022-04-25T15:33:02 IST" name="checkExecutionModeTestSuite" finished-at="2022-04-25T15:33:13 IST" duration-ms="10576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionModeTestSuite -->
+        <test-method is-config="true" signature="checkTestCase()[pri:0, instance:QuoteCQ.QuoteCQ_PublishQuote@383bfa16]" started-at="2022-04-25T15:46:40 IST" name="checkTestCase" finished-at="2022-04-25T15:46:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method signature="publishmain()[pri:0, instance:QuoteCQ.QuoteCQ_PublishQuote@383bfa16]" started-at="2022-04-25T15:46:40 IST" name="publishmain" description="#. HAPPY PATH :: QCQ - PUBLISH QUOTE" finished-at="2022-04-25T15:46:48 IST" duration-ms="8061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishmain -->
+      </class> <!-- QuoteCQ.QuoteCQ_PublishQuote -->
+    </test> <!-- PublishQuote -->
+  </suite> <!-- happypathquoteCQ -->
+</testng-results>

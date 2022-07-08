@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RFQ]">
+  <test thread-count="5" name="RFQ_DocUpload(failed)">
+    <classes>
+      <class name="RFQ.RFQ_DocUpload">
+        <methods>
+          <include name="documentUploadZip"/>
+          <include name="checkExecutionModeTestSuite"/>
+          <include name="documentUploadSmall"/>
+          <include name="checkTestCase"/>
+          <include name="documentUpload"/>
+          <include name="documentUploadInvalid"/>
+        </methods>
+      </class> <!-- RFQ.RFQ_DocUpload -->
+    </classes>
+  </test> <!-- RFQ_DocUpload(failed) -->
+</suite> <!-- Failed suite [RFQ] -->
