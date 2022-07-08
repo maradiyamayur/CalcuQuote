@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BOM">
+
+	<listeners>
+		<listener class-name="parentclass.TestListener" />
+	</listeners>
+
+	<test name="Login">
+		<parameter name="cqUrl"
+			value="https://qa.calcuquote.com/qa3" />
+		<classes>
+			<class name="QuoteCQ.QuoteCQ_Login"></class>
+		</classes>
+	</test>
+
+	<test name="Verify BOM Operations">
+		<classes>
+			<class name="BOM.BOM_BOMOperations">
+				<methods>
+					<include name="copyBOM_SingleLevel" />
+					<include name="copyBOM_MultiLevel" />
+					<!-- <include name="copyBOM_PackageQuote" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

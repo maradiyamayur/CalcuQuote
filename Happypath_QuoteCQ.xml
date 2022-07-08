@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="happypathquoteCQ">
+
+<listeners>
+<listener class-name="parentclass.TestListener" />
+</listeners>
+
+<test name="Login">
+<parameter name="cqUrl" value="https://app.calcuquote.com/stagingsandbox/"/> 
+<classes>
+<class name="QuoteCQ.QuoteCQ_Login"></class>
+</classes>
+</test>
+
+<test name="CreateRFQ">
+<classes>
+<class name="QuoteCQ.QuoteCQ_CreateRFQ"></class>
+</classes>
+</test>  
+
+ <test name="ImportBOM">
+<classes>
+<class name="QuoteCQ.QuoteCQ_ImportBOM"></class>
+</classes>
+</test>
+
+<test name="AddLabor">
+<classes>
+<class name="QuoteCQ.QuoteCQ_AddLabor"></class>
+</classes>
+</test>
+
+<test name="UpdatePricing">
+<classes>
+<class name="QuoteCQ.QuoteCQ_UpdatePricing"></class>
+</classes>
+</test>
+ 
+<test name="AutoSelect">
+<classes>
+<class name="QuoteCQ.QuoteCQ_AutoSelect"></class>
+</classes>
+</test>
+
+<test name="SubmitSummary">
+<classes>
+<class name="QuoteCQ.QuoteCQ_SubmitSummary"></class>
+</classes>
+</test>
+
+<test name="PublishQuote">
+<classes>
+<class name="QuoteCQ.QuoteCQ_PublishQuote"></class>
+</classes>
+</test>
+
+<!-- <test name="MarkasSent">
+<classes>
+<class name="QuoteCQ.QuoteCQ_MarkasSent"></class>
+</classes>
+</test>
+ -->
+</suite>

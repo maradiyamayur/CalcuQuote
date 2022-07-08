@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+
+<project basedir="." default="usage" name="CQ">
+
+<!-- ========== initialize Properties =================================== -->
+
+
+<property environment="env"/>
+
+<property name="workspace.homepage" value="${basedir}"/>
+<property name="workspace.jarFiles" value="${basedir}/lib/SELENIUM_LIB"/>
+<property name="testcase.destination" value="${workspace.homepage}/build"/>
+<property name="testcase.source" value="${workspace.homepage}/src"/>
+<property name="testcase.reportDirectory" value="test-output"/>
+
+
+<!-- For executing the scenario, use execution target -->
+
+<target name="execute" depends="compiling">
+<testng suitename="allsuite" classpath="${test.classpath}:${testcase.destination}">
+<xmlfileset dir="${workspace.homepage}" includes="AllSuites.xml"/>
+</testng>
+<!--<testng classpath="${test.classpath}:${testcase.destination}" groups="fast"><classfileset dir="${testcase.destination}" includes="example1/*.class"/></testng> -->
+</target>
+
+<!-- For compiling code -->
+<target name="compiling" depends="initialization, cleaning">
+<delete quiet="true" includeemptydirs="true">
+<fileset dir="${testcase.destination}" includes="**/*"/>
+</delete>
+<echo message="making directory..."/>
+<mkdir dir="${testcase.destination}"/>
+<echo message="classpath------: ${test.classpath}"/>
+<echo message="compiling..."/>
+<javac classpath="${test.classpath}" includeantruntime="false"  srcdir="${testcase.source}" destdir="${testcase.destination}" debug="true"> </javac>
+</target>
+
+
+<target name="classPathSetting" unless="test.classpath">
+<path id="classpath_jars">
+<fileset dir="${workspace.jarFiles}" includes="*.jar"/>
+</path>
+<pathconvert refid="classpath_jars" property="test.classpath" pathsep=":"/>
+</target>
+
+
+<target name="initialization" depends="classPathSetting">
+<tstamp>
+<format property="start.time" pattern="MM/dd/yyyy hh:mm aa"/>
+</tstamp>
+<condition value="${env.ANT_HOME}/bin/ant.bat" property="ANT" else="${env.ANT_HOME}/bin/ant">
+<os family="windows"/>
+</condition>
+	
+	<path id="classpath_jars">
+	  <fileset dir="${workspace.jarFiles}" includes="*.jar"/>
+	</path>
+	
+<!--<taskdef name="testng" classpath="classpath_jars" classname="org.testng.TestNGAntTask"/>-->	
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+			<classpath>
+				<pathelement location="lib/SELENIUM_LIB/testng-6.8.5.jar"/>
+			</classpath>
+	</taskdef>
+</target>
+
+<!-- all -->
+<target name="all"> </target>
+<!-- cleaning the directory -->
+<target name="cleaning">
+<delete dir="${testcase.destination}"/>
+</target>
+
+<!-- build -->
+<target name="build" depends="initialization"> </target>
+<target name="usage">
+<echo>ant execute target will execute all the test cases and test scripts </echo>
+</target>
+
+
+<path id="test.c">
+<fileset dir="${workspace.jarFiles}" includes="*.jar"/>
+</path>
+
+
+<target name="email">
+<java classpath="${testcase.destination}" classname="parentclass.SendMail" classpathref="test.c"/>
+</target>
+
+</project>

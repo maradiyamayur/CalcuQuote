@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ImportWidget">
+
+<listeners>
+<listener class-name="parentclass.TestListener" />
+</listeners>
+
+<test name="Login">
+<parameter name="cqUrl" value="https://qa.calcuquote.com/qa1/"/> 
+<classes>
+<class name="QuoteCQ.QuoteCQ_Login"></class>
+</classes>
+</test>
+
+<!-- <test name="CreateRFQ">
+<classes>
+<class name="QuoteCQ.CreateRFQ"></class>
+</classes>
+</test>   -->
+
+ <test name="BOM_SingleLevel">
+<classes>
+<class name="ImportWidget.IW_BOM_SingleLevel"></class>
+</classes>
+</test> 
+
+<test name="BOM_MultiLevel">
+<classes>
+<class name="ImportWidget.IW_BOM_MultiLevel"></class>
+</classes>
+</test>
+ 
+<!-- <test name="BOM_PackageQuote">
+<classes>
+<class name="ImportWidget.IW_BOM_PackageQuote"></class>
+</classes>
+</test>  
+ -->
+
+ <test name="DemandLine">
+<classes>
+<class name="ImportWidget.IW_DemandLine"></class>
+</classes>
+</test>
+</suite>

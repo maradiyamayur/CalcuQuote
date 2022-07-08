@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="happypathsearchCQ" >
+
+<listeners>
+<listener class-name="parentclass.TestListener" />
+</listeners>
+
+<test name="Login">
+<parameter name="cqUrl" value="https://app.calcuquote.com/SearchCQStaging/?userid=stagingsandbox"/> 
+<classes>
+<class name="SearchCQ.SearchCQ_Login"></class>
+</classes>
+</test>
+
+<test name="SearchMPN">
+<classes>
+<class name="SearchCQ.SearchCQ_SearchMPN"></class>
+</classes>
+</test>
+
+<test name="VerifyResult">
+<classes>
+<class name="SearchCQ.SearchCQ_VerifyResult"></class>
+</classes>
+</test>
+</suite>

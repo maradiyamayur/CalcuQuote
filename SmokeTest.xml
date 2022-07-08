@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+
+<test name="Login">
+<parameter name="cqUrl" value="https://qa.calcuquote.com/qa1"/> 
+<classes>
+<class name="QuoteCQ.QuoteCQ_Login"></class>
+</classes>
+</test>
+
+<!-- <test name="CreateRFQ">
+<classes>
+<class name="RFQ.RFQ_Create"></class>
+</classes>
+</test>   -->
+
+<!--  <test name="BOM and PRICING">
+<classes>
+<class name="SmokeTest.Smoke_BOMLineItems"></class>
+</classes>
+</test> -->
+
+<!--  <test name="NRE">
+<classes>
+<class name="SmokeTest.Smoke_NRE"></class>
+</classes>
+</test> -->
+
+<!-- <test name="Email">
+<classes>
+<class name="SmokeTest.Smoke_Email"></class>
+</classes>
+</test> -->
+
+<!--  <test name="LogOut">
+<classes>
+<class name="SmokeTest.LogOut"></class>
+</classes>
+</test> -->
+
+<!--  <test name="ForgotPassword">
+<classes>
+<class name="SmokeTest.ForgotPassword"></class>
+</classes>
+</test>
+ -->
+ 
+<!--  <test name=" Reports">
+<classes>
+<class name="SmokeTest.Reports"></class>
+</classes>
+</test>
+ -->
+ 
+ <!--  <test name="Import-Export Bid">
+<classes>
+<class name="SmokeTest.Smoke_Import_Export_Bid"></class>
+</classes>
+</test>
+ -->
+ 
+<test name="Summary">
+<classes>
+<class name="SmokeTest.Smoke_Summary_Material"></class>
+<class name="SmokeTest.Smoke_Summary_Labor"></class>
+<!-- <class name="SmokeTest.Smoke_Summary_MiscCost"></class> -->
+<class name="SmokeTest.Smoke_Summary_Overhead"></class>
+</classes>
+</test>
+
+</suite>

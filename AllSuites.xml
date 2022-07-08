@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="allsuite" parallel="false">
+
+<!-- <listeners>
+<listener class-name="parentclass.TestListener" />
+ <listener class-name="parentclass.RetryListener"/>
+</listeners> -->
+
+<suite-files>
+<suite-file path="./login.xml"/> 
+<suite-file path="./RFQ.xml"/>   
+<suite-file path="./BOM.xml"/> 
+<!--  <suite-file path="./Labor.xml"/> -->
+<!-- <suite-file path="./MaterialCosting.xml"/> -->
+</suite-files>
+
+ <!-- <listeners>
+<listener class-name="Utility.ExecutionListener" />
+</listeners> --> 
+</suite>

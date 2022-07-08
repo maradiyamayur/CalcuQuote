@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="happypathshopCQ" >
+
+<listeners>
+<listener class-name="parentclass.TestListener" />
+</listeners>
+
+ 
+<test name="Login">
+<!-- <parameter name="cqUrl" value="${url.name}"/>  -->
+<parameter name="cqUrl" value="https://app.calcuquote.com/stagingsandbox/#/shopcq/demandlist"/> 
+<classes>
+<class name="QuoteCQ.QuoteCQ_Login"></class>
+</classes>
+</test>
+
+<!--  <test name="SentLineitem">
+<classes>
+<class name="ShopCQ.ShopCQ_SentLineitem"></class>
+</classes>
+</test> 
+ -->
+<test name="ReviewFilter">
+<classes>
+<class name="ShopCQ.ShopCQ_ReviewFilter"></class>
+</classes>
+</test> 
+
+ <test name="UploadDemand">
+<classes>
+<class name="ShopCQ.ShopCQ_UploadDemand"></class>
+</classes>
+</test> 
+
+<test name="AddDemandline">
+<classes>
+<class name="ShopCQ.ShopCQ_AddDemandline"></class>
+</classes>
+</test>  
+
+<test name="ConsolidateLineitem">
+<classes>
+<class name="ShopCQ.ShopCQ_ConsolidateLineitem"></class>
+</classes>
+</test>
+
+ <test name="CreatePO">
+<classes>
+<class name="ShopCQ.ShopCQ_CreatePO"></class>
+</classes>
+</test>
+ 
+<test name="POSent">
+<classes>
+<class name="ShopCQ.ShopCQ_POSent"></class>
+</classes>
+</test> 
+
+ <test name="POHistory">
+<classes>
+<class name="ShopCQ.ShopCQ_POHistory"></class>
+</classes>
+</test> 
+ 
+ <test name="POFilterList">
+<classes>
+<class name="ShopCQ.ShopCQ_POFilterList"></class>
+</classes>
+</test> 
+
+ <test name="ExportPO">
+<classes>
+<class name="ShopCQ.ShopCQ_ExportPO"></class>
+</classes>
+</test>
+
+ <test name="UpdatePricing">
+<classes>
+<class name="ShopCQ.ShopCQ_UpdatePricing"></class>
+</classes>
+</test> 
+
+<test name="AutoSelect">
+<classes>
+<class name="ShopCQ.ShopCQ_AutoSelect"></class>
+</classes>
+</test>
+
+</suite>

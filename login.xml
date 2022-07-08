@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="login">
+
+<listeners>
+<listener class-name="parentclass.TestListener" />
+</listeners>
+
+<!-- <test name="LoginIncorrect">
+<classes>
+<class name="Login.LoginIncorrect"></class>
+</classes>
+</test>  
+-->
+<test name="Login">
+<!-- <parameter name="cqUrl" value="${url.name}"/>  -->
+<parameter name="cqUrl" value="https://app.calcuquote.com/stagingsandbox"/> 
+<classes>
+<class name="Login.Login"></class>
+</classes>
+</test>
+
+<!-- 
+<test name="LoginMaster">
+<classes>
+<class name="Login.LoginMaster"></class>
+</classes>
+</test>
+-->
+</suite>
