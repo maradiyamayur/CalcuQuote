@@ -1,0 +1,9 @@
+1599456741211	geckodriver	INFO	Listening on 127.0.0.1:13466
+1599456741923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilefwwNQi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[Parent 13676, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599456761405	Marionette	INFO	Listening on port 3965
+1599456761815	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://qalogin.calcuquote.com/Scripts/jquery-2.0.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://qa.calcuquote.com/Staging2/Scripts/libs/jquery-2.0.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead

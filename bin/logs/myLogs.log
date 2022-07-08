@@ -1,0 +1,16 @@
+05/10/2020 09:51:40 devpinoyLogger ~>> Properties file is loading now....
+05/10/2020 09:51:40 devpinoyLogger ~>> Properties file loaded successfully....
+05/10/2020 09:51:40 devpinoyLogger ~>> Browser is launching now...
+05/10/2020 09:51:45 devpinoyLogger ~>> Browser launched successfully.....
+05/10/2020 09:51:49 devpinoyLogger ** Login with Valid Email id or Password
+05/10/2020 09:51:54 devpinoyLogger ~>> Enter UserName
+05/10/2020 09:51:55 devpinoyLogger ~>> Enter Password
+05/10/2020 09:51:55 devpinoyLogger ~>> Click on Login Button
+05/10/2020 09:52:50 devpinoyLogger RESULT  1 :: Login Done Successully 
+05/10/2020 09:52:50 devpinoyLogger RESULT  2 :: Redirected to CalcuQuote - DashboardPage
+05/10/2020 09:52:50 devpinoyLogger RESULT  3 :: Time to login  :: 1 Second(s)
+05/10/2020 09:52:50 devpinoyLogger RESULT  4 :: Login done within 40 seconds
+05/10/2020 09:52:50 devpinoyLogger ----------------------------------------------------------------------------
+05/10/2020 09:52:50 devpinoyLogger ~**  Create RFQ with Single Assembly
+05/10/2020 09:53:01 devpinoyLogger ** Validating the added data after save
+05/10/2020 09:53:01 devpinoyLogger ~>> Searching with Assembly Name
